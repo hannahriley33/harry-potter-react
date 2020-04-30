@@ -1,6 +1,7 @@
 import React from 'react';
+import HpCharacters from '../../containers/HpCharacters.jsx';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <HpCharacters  />;
 }
-  
+

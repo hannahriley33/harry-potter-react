@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import CharacterDetail from '../CharacterDetail/CharacterDetail.jsx';
 
 const CharacterList = ({ characters }) => {
+  console.log(characters);
   const charactersToList = characters.map(character => (
     <li key={`${character.name} + ${character.patronus}`}>
       <CharacterDetail {...character} />
@@ -14,7 +15,6 @@ const CharacterList = ({ characters }) => {
       {charactersToList}
     </ul>
   );
-
 };
 
 CharacterList.propTypes = {
