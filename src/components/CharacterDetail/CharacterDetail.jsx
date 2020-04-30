@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const CharacterDetail = ({ image, name, house, patronus }) => (
-  <section>
+  <Link key={name} to={`characters/${name}`}>
     <img src={image} />
     <h2>{name}</h2>
     <p>Hogwarts House: {house}</p>
     <p>Patronus Form: {patronus}</p>
-  </section>
+  </Link>
 );
 
 CharacterDetail.propTypes = {
