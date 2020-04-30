@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Detail matches the snapshot 1`] = `
+<section>
+  <img
+    src="abc"
+  />
+  <h2>
+    harry
+  </h2>
+  <p>
+    Hogwarts House: 
+    gryffindor
+  </p>
+  <p>
+    Patronus Form: 
+    stag
+  </p>
+</section>
+`;
